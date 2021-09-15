@@ -14,6 +14,7 @@ html {
 h2 {
   font-size: 12vmin;
   animation: fade 2s 2s forwards;
+  background: linear-gradient(to top right, rgb(97, 97, 97), rgb(0, 217, 255));
   position: absolute;
   top: 0;
   left: 0;

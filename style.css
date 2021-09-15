@@ -1,0 +1,53 @@
+html {
+  height: 100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background: url('get_real.gif'), linear-gradient(to top right, blue, red);
+  background-size: 100% 100%;
+  /* background-repeat: no-repeat; */
+  /* background-position: center center; */
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-size: 35vmin;
+  animation: fadeout 2s 2s forwards;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+body {
+  text-align: center;
+}
+video:not(:fullscreen) {
+  outline: none;
+  transition: transform .1s; 
+  border-radius: 1em;
+  width: 500px;
+  border: 5px solid white;
+}
+h1 {
+  animation: fade 2s
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1
+  }
+  to {
+    opacity: 0
+  }
+}
+
+
+@keyframes fade {
+  from {
+    opacity: 0
+  }
+  to {
+    opacity: 1
+  }

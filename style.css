@@ -3,17 +3,17 @@ html {
   display:flex;
   justify-content:center;
   align-items:center;
-  background: url('get_real.gif'), linear-gradient(to top right, blue, red);
-  background-size: 100% 100%;
-  /* background-repeat: no-repeat; */
-  /* background-position: center center; */
+  background: url('get_real.gif'), linear-gradient(to top right, rgb(15, 15, 15), red);
+  background-size: 25% 25%;
+  background-repeat: no-repeat;
+  background-position: center center;
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h2 {
-  font-size: 35vmin;
-  animation: fadeout 2s 2s forwards;
+  font-size: 12vmin;
+  animation: fade 2s 2s forwards;
   position: absolute;
   top: 0;
   left: 0;
